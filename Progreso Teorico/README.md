@@ -33,7 +33,12 @@ eso, ademas de un boton que te redirecciona a la pagina para vincular la sube al
 si se va a mantener asi pero todo el funcionamiento esta hecho en javascript.
 
 la vista conceptual y el diseño web se va a dejar en manos de azari... que dios se apiade de nuestra alma y el gpt
-que le va a poner encima... voy a tener que modificar su diseño para que sea entendible una vez lo entregue
+que le va a poner encima... voy a tener que modificar su diseño para que sea entendible una vez lo entregue.
+
+Algo importante es que supabase requiere actividad constante de modificacion, es decir que no cuenta solo la lectura
+uno tiene que modificar algo en la tabla si no se deshabilita. Segun los terminos y condiciones tenemos 1 mes hasta que
+no se pause la BD y si no, entra en pausa por otro mes y despues de eso si no la reactivamos en ese tiempo se pierde
+toda la BD.
 
 
 
