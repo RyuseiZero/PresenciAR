@@ -30,7 +30,9 @@ const btnEscanear = document.getElementById('btnEscanear');
                     statusDiv.style.color = "green";
                     
                     let datosLeidos = `ID Serial: ${serialNumber}\n`;
-                    
+                    //aca esta portal
+                    localStorage.setItem('portal',serialNumber);
+
                     // Leer los registros dentro del chip NFC
                     //(investigar en detalle)
                     for (const record of message.records) {
@@ -43,6 +45,8 @@ const btnEscanear = document.getElementById('btnEscanear');
                     }
                     
                     logDiv.innerText = datosLeidos;
+                    //redireccion
+                    window.location.href="../BD/base-de-datos.html";
                 });
 
                 // Si falla lectura
