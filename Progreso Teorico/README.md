@@ -24,6 +24,21 @@ Opcion 2 Vincular alumno- En esta opcion podra a traves de nfc poner el uid de u
 a vincular a un alumno el campo que vamos a pedir solo sera nombre por ahora.
 //Se complico el desarrollo de la aplicacion al menos con flutter voy a investigar como arreglarlo...
 
+Actualizacion:
+Al parecer llevo actualizando mucho tiempo las cosas en otro github.
+Todo fue modificado ahora no usamos flutter directamente utilizamos los navegadores para que funcione el nfc
+ademas usamos supabase para la base de datos y un html general para manejar todo(en revision puede cambiar)
+lo que si se mantiene es el html donde se visualiza la tabla y se puede modificar, se agregaron botones para
+eso, ademas de un boton que te redirecciona a la pagina para vincular la sube al alumno. No se sabe exactamente
+si se va a mantener asi pero todo el funcionamiento esta hecho en javascript.
+
+la vista conceptual y el diseño web se va a dejar en manos de azari... que dios se apiade de nuestra alma y el gpt
+que le va a poner encima... voy a tener que modificar su diseño para que sea entendible una vez lo entregue
+
+
+
+
+
 ```
  - Barrios Oscar:
  - Villalba Victoria:
